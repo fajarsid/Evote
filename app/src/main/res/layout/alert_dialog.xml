@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shape="rectangle">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#3896CF"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Vote Akan Di Lakukan !"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2D3E50"
+        android:paddingBottom="16dp"
+        android:layout_below="@id/judul"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="image"
+            android:src="@mipmap/votefix" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image2"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="@string/alert"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

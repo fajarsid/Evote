@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Evote</string>
+    <string name="welcome_text">W E L C O M E</string>
+    <string name="welcome_message_text">To Our Application</string>
+    <string name="star_btn_text">Get Started</string>
+    <string name="akun_hint">Email</string>
+    <string name="pass_hint">Password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="Nama">Nama</string>
+    <string name="Detail">Detail</string>
+    <string name="vote">V O T E</string>
+    <string name="btn_detail">Detail</string>
+    <string name="toolbar">C A N D I D A T</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="namacalon">Nama</string>
+    <string name="prodicalon">Program Studi</string>
+    <string name="angkatancalon">Angkatan</string>
+    <string name="alert">Apakah anda yakin ?</string>
+    <string name="about">Terbuat dari cinta dan doa orang tua, Mencintai Siapapun dan Apapun.</string>
+</resources>

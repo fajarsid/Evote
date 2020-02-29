@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgprofil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/margin" />
+
+        <LinearLayout
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvFullName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Nama Lengkap"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold"/>-->
+
+            <TextView
+                android:id="@+id/tvprofil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Profil"
+                android:textColor="#FF6666"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+<!--            <TextView-->
+<!--                 android:id="@+id/tvprodi"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Prodi"-->
+<!--                android:textSize="15sp"-->
+<!--                android:layout_marginLeft="2dp"-->
+<!--                android:textColor="#FF6666"-->
+<!--                android:textStyle="normal"/>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="150dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listmenu"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+</LinearLayout>
